@@ -43,7 +43,7 @@ export default function Home() {
       </h3>
       <div className="flex gap-6 flex-col md:flex-row overflow-hidden pb-4">
         <BlogHighlightCard
-          slug="2023-05-10/slug"
+          slug="2023-05-10/1"
           title="Hello world"
           gradient="from-gray-300 to-gray-500"
         />

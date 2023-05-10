@@ -43,7 +43,7 @@ export const Footer: FC = () => {
             href="https://www.instagram.com/liuxian.g/"
             className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition"
           >
-            instagram
+            Instagram
           </Link>
         </div>
       </div>
