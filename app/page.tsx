@@ -43,20 +43,20 @@ export default function Home() {
       </h3>
       <div className="flex gap-6 flex-col md:flex-row overflow-hidden pb-4">
         <BlogHighlightCard
-          slug="YYYY-MM-DD/slug"
-          title="Does the Inertia of a Body Depend Upon Its Energy Content?"
+          slug="2023-05-10/slug"
+          title="Hello world"
           gradient="from-gray-300 to-gray-500"
         />
-        <BlogHighlightCard
-          slug="YYYY-MM-DD/slug"
-          title="On the Electrodynamics of Moving Bodies"
-          gradient="from-gray-700 to-gray-300"
-        />
-        <BlogHighlightCard
-          slug="YYYY-MM-DD/slug"
-          title="On a Heuristic Viewpoint Concerning the Production and Transformation of Light"
-          gradient="from-gray-700 to-gray-300"
-        />
+        {/*<BlogHighlightCard*/}
+        {/*  slug="YYYY-MM-DD/slug"*/}
+        {/*  title="On the Electrodynamics of Moving Bodies"*/}
+        {/*  gradient="from-gray-700 to-gray-300"*/}
+        {/*/>*/}
+        {/*<BlogHighlightCard*/}
+        {/*  slug="YYYY-MM-DD/slug"*/}
+        {/*  title="On a Heuristic Viewpoint Concerning the Production and Transformation of Light"*/}
+        {/*  gradient="from-gray-700 to-gray-300"*/}
+        {/*/>*/}
       </div>
       <Link className="flex text-lg justify-end" href={PATHS.BLOG}>
         More articles{" "}
