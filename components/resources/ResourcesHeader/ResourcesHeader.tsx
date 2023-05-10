@@ -8,7 +8,7 @@ export const ResourcesHeader: FC = () => {
       <h1 className="font-bold text-3xl md:text-4xl tracking-tight mb-5 text-black dark:text-white">
         Resources
       </h1>
-      <p>Save and share the learning resources most valuable to you!</p>
+      <p>おすすめのもの</p>
     </div>
   );
 };
