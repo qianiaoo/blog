@@ -74,7 +74,7 @@ export const TECHNOLOGIES = {
       experience: TECH_PROFICIENCY.PRODUCTION,
     },
     {
-      name: "Nest JS",
+      name: "Spring",
       icons: [NestJsIcon],
       experience: TECH_PROFICIENCY.PRODUCTION,
     },

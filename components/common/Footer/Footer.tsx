@@ -34,16 +34,16 @@ export const Footer: FC = () => {
         </div>
         <div className="flex flex-col space-y-4">
           <Link
-            href="https://github.com/<your-github-profile>/"
+            href="https://github.com/qianiaoo/"
             className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition"
           >
             GitHub
           </Link>
           <Link
-            href="https://www.linkedin.com/in/<your-linkedin-profile>/"
+            href="https://www.instagram.com/liuxian.g/"
             className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition"
           >
-            LinkedIn
+            instagram
           </Link>
         </div>
       </div>

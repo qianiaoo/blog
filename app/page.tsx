@@ -67,7 +67,7 @@ export default function Home() {
       <hr className="my-4 border-b-2" />
 
       <Link className="flex text-lg justify-end" href={PATHS.RESOURCES}>
-        {`<tell-people-about-learning-resources-you-use>`}{" "}
+        {`おすすめ`}{" "}
         <span className="my-auto">
           <ArrowRightIcon width={20} height={20} />
         </span>
