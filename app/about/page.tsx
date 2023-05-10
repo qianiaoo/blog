@@ -1,40 +1,25 @@
 import { PageTitle } from "components/common/PageTitle";
 import Image from "next/image";
-import Link from "next/link";
-import about from "/public/about.jpg";
+import about from "/public/LiuXiang.png";
 
 export default function About() {
   return (
     <div className="flex flex-col px-8">
       <PageTitle>
-        Hey! I{`'`}m Albert Einstein
+        Hey! I{`'`}m LIU XIANG
         <span className="inline-block ml-2 animate-waving-hand">👋</span>
       </PageTitle>
       <div className="grid grid-cols-1 sm:grid-cols-2 w-100 ltr justify-center flex-wrap">
         <div className="flex flex-col justify-evenly align-middle text-xl">
           <p className="py-2">
-            I{`'`}m a German-born theoretical physicist, widely acknowledged to
-            be one of the greatest and most influential physicists of all time.
+            中国河南省出身で、今は広島市立大学に留学しています。
           </p>
           <p className="py-2">
-            Currently, I{`'`}m working as an{" "}
-            <span className="font-semibold">Assistant Examiner</span> evaluating
-            patent applications at the{" "}
-            <Link
-              className="font-semibold"
-              href="https://en.wikipedia.org/wiki/Swiss_Federal_Institute_of_Intellectual_Property"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Swiss Patent Office
-            </Link>
-            .
+            知能工学科データ工学研究室に所属しています。最近はtext-to-imageに興味があります。
           </p>
           <p className="py-2">
-            <span className="font-semibold">Fun Fact:</span> In 1905, I
-            published 4 papers which all provided a major contribution to modern
-            Physics today, including my famous{" "}
-            <span className="font-semibold">E = mc²</span>!
+            <span className="font-semibold">趣味:</span>{" "}
+            山登るのが好きです。カメラも好きです。旅行も好きです。漫画も好きです。絵は友達が書いてくれました。
           </p>
         </div>
         <div className="relative sm:order-none order-first w-100 sm:w-72 h-96 overflow-hidden rounded-lg m-5 hover:scale-[1.02] transition-all hover:shadow-xl">
