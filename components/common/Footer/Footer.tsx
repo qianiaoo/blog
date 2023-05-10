@@ -39,12 +39,6 @@ export const Footer: FC = () => {
           >
             GitHub
           </Link>
-          <Link
-            href="https://www.instagram.com/liuxian.g/"
-            className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition"
-          >
-            Instagram
-          </Link>
         </div>
       </div>
     </footer>
